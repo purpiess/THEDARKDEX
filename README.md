@@ -10,7 +10,8 @@ Dex Explorer V3 with some code edits.
 
 # 📦 LoadString
 
-```lus
-loadstring(game:HttpGet("here"))()
+
+```lua
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RealBebramen/Dex-v3/main/main/Dex/Explorer/V3/Code%20Edit/By%20RealBebramen/src.lua"))()
 ```
 
