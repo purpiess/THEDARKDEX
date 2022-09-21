@@ -1,3 +1,9 @@
+game.StarterGui:SetCore("SendNotification", {
+    Title = "Dex is loading...";
+    Text = "Loading instances.";
+    Duration = "5";
+})
+
 local Dex = Instance.new'ScreenGui'
 
 local PropertiesFrame = Instance.new'Frame'
@@ -160,7 +166,12 @@ local SaveScript = Instance.new'TextButton'
 local CopyScript = Instance.new'TextButton'
 local ClearScript = Instance.new'TextButton'
 
---properties
+game.StarterGui:SetCore("SendNotification", {
+    Title = "Dex is loading...";
+    Text = "Setting instances.";
+    Duration = "5";
+})
+
 Dex.Name = "Dex"
 Dex.Parent = game:GetService("CoreGui")
 Dex.ResetOnSpawn = false
@@ -1768,34 +1779,15 @@ ClearScript.Font = Enum.Font.Code
 ClearScript.Text = "Clear Editor"
 ClearScript.TextColor3 = Color3.fromRGB(255, 255, 255)
 ClearScript.TextSize = 14
---scripts
+
+game.StarterGui:SetCore("SendNotification", {
+    Title = "Dex is loading...";
+    Text = "Loading scripts.";
+    Duration = "5";
+})
+
 coroutine.wrap(function()
 	local script = Properties
-	
-	--[[
-		
-	Change log:
-	
-	09/18
-		Fixed checkbox mouseover sprite
-		Encapsulated checkbox creation into separate method
-		Fixed another checkbox issue
-	
-	09/15
-		Invalid input is ignored instead of setting to default of that data type
-		Consolidated control methods and simplified them
-		All input goes through ToValue method
-		Fixed position of BrickColor palette
-		Made DropDown appear above row if it would otherwise exceed the page height
-		Cleaned up stylesheets
-	
-	09/14
-		Made properties window scroll when mouse wheel scrolled
-		Object/Instance and Color3 data types handled properly
-		Multiple BrickColor controls interfering with each other fixed
-		Added support for Content data type
-		
-	--]]
 	
 	wait(0.2)
 	
@@ -9916,3 +9908,9 @@ coroutine.wrap(function()
 		script.Parent.Visible = false;
 	end)
 end)()
+
+game.StarterGui:SetCore("SendNotification", {
+    Title = "Dex Loaded!";
+    Text = "Dex succesfully loaded!";
+    Duration = "5";
+})
