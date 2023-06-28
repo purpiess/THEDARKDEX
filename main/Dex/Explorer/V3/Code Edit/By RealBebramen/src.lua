@@ -1,9 +1,3 @@
-game.StarterGui:SetCore("SendNotification", {
-    Title = "Dex is loading...";
-    Text = "Loading instances.";
-    Duration = "5";
-})
-
 local Dex = Instance.new'ScreenGui'
 
 local PropertiesFrame = Instance.new'Frame'
@@ -166,13 +160,7 @@ local SaveScript = Instance.new'TextButton'
 local CopyScript = Instance.new'TextButton'
 local ClearScript = Instance.new'TextButton'
 
-game.StarterGui:SetCore("SendNotification", {
-    Title = "Dex is loading...";
-    Text = "Setting instances.";
-    Duration = "5";
-})
-
-Dex.Name = "Dex"
+Dex.Name = "Coems 🤑"
 Dex.Parent = game:GetService("CoreGui")
 Dex.ResetOnSpawn = false
 
@@ -9908,9 +9896,3 @@ coroutine.wrap(function()
 		script.Parent.Visible = false;
 	end)
 end)()
-
-game.StarterGui:SetCore("SendNotification", {
-    Title = "Dex Loaded!";
-    Text = "Dex succesfully loaded!";
-    Duration = "5";
-})
