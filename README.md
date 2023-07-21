@@ -6,7 +6,6 @@ Dex Explorer V3 with some code edits. ([View source](https://github.com/RealBebr
 - Removed shit code
 - Removed Dex CoreGUI Protect
 - Removed name protect
-- Changed some unworking icons
 
 # 📦 LoadString
 
