@@ -11,5 +11,5 @@ Dex Explorer V3 with some code edits. ([View source](https://github.com/RealBebr
 
 
 ```lua
-loadstring(game:HttpGet("https://raw.githubusercontent.com/RealBebramen/Dex-v3/main/main/Dex/Explorer/V3/Code%20Edit/By%20RealBebramen/src.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RealBebramen/Dex-V3/main/Dex/V3.lua"))()
 ```
