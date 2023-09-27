@@ -1,4 +1,4 @@
-local Dex = Instance.new'ScreenGui'
+local Dex = Instance.new'ScreenGui'a
 
 local PropertiesFrame = Instance.new'Frame'
 local Properties = Instance.new'LocalScript'
